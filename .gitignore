@@ -74,3 +74,5 @@ paper.yml-README.txt
 .HARD_FAILED
 .NO_UNPATCH
 .NO_PULL
+
+plugins/spark/tmp-client/
