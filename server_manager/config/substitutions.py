@@ -60,7 +60,7 @@ def substitute_placeholders(
             environment[k] = v
     for file in files:
         try:
-            with file.open("r+") as f:
+            with file.open("r+", encoding="iso-8859-1") as f:
                 original = f.read()
                 template = jinja2.Template(original, **environment)
                 rendered = template.render(**substitutions)
