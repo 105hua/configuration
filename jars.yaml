@@ -123,6 +123,9 @@ plugins:
 - checksum: d70e0d30e9008511e8a0144fdabc59d39185e3c6
   name: IceCream
   version: 1.0-SNAPSHOT
+- checksum: 55e89ae1c8e01117d89165cc933a217b76f55bb7
+  name: SpectatorMode
+  version: 2.2.0
 version:
   build: 97
   name: 1.21.11
