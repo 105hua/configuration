@@ -6,9 +6,9 @@ plugins:
 - checksum: 379f1720c4664edabeb8194996cbebdc7846b37b
   name: MiniMOTD
   version: 2.2.2
-- checksum: 7a4526cf3570307e87d485e20236f20e29fe3e1d
+- checksum: 6b6c24cb344ab0dfbc950035b956f4a46f6b12e5
   name: bat
-  version: 1.1.2
+  version: 1.1.4
 - checksum: 3c8c9a14a76520dbd9d2b41fd9d1138a26210fc6
   name: swap
   version: 1.0.0
