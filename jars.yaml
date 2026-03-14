@@ -57,9 +57,6 @@ plugins:
 - checksum: f7bb2e89c3fef04d673a74763ff67474298095f3
   name: CoreProtect
   version: 23.4
-- checksum: f63dbe5a478b3c9545368100a928f3d20317b568
-  name: VanishNoPacket
-  version: '3.22'
 - checksum: ff2cb3d3bbdd1fd3d8dbc19a7e5d58bbd7d345a9
   name: CarbonChat
   version: 3.0.0-beta.36
