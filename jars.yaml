@@ -124,5 +124,5 @@ plugins:
   name: IceCream
   version: 1.0-SNAPSHOT
 version:
-    build: 97
-    name: 1.21.11
+  build: 97
+  name: 1.21.11
