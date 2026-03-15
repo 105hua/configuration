@@ -30,18 +30,12 @@ plugins:
 - checksum: 1ffc1a060c77e071aa4f41a3fb482704c6afe2eb
   name: Hat
   version: 1.5.0
-- checksum: 0c30f38fec62ed09497b6d433f1b2cc954baa8cc
-  name: IsSlimeChunk
-  version: 1.0.4
 - checksum: c8c78165907a53a5f542673b49c5cdd74f8cbf76
   name: OnePlayerSleep
   version: 1.0.6-2-ga87aac8
 - checksum: ed826085a76a79b2fcf7b07afc35580feed903a4
   name: OpenInv
   version: 5.2.0
-- checksum: 1425116618d1d7f626771cb5bb64fc74f15d485b
-  name: WanderfulAdditions
-  version: 0.1.3
 - checksum: 07075d7dc0882e24e5a2d7357dd8a8beda3323de
   name: WorldGuard
   version: 7.0.15+2347-5fafea6
@@ -63,12 +57,6 @@ plugins:
 - checksum: f7bb2e89c3fef04d673a74763ff67474298095f3
   name: CoreProtect
   version: 23.4
-- checksum: f63dbe5a478b3c9545368100a928f3d20317b568
-  name: VanishNoPacket
-  version: '3.22'
-- checksum: 55e89ae1c8e01117d89165cc933a217b76f55bb7
-  name: SpectatorMode
-  version: 2.2.0
 - checksum: ff2cb3d3bbdd1fd3d8dbc19a7e5d58bbd7d345a9
   name: CarbonChat
   version: 3.0.0-beta.36
@@ -105,9 +93,6 @@ plugins:
 - checksum: 6523c3d687d245e7c8e39556a05c59aa48d55975
   name: LootChestManager
   version: 1.3-SNAPSHOT
-- checksum: 1f6637fb6ac63a22bd42d9d00b8d536a38a2ec46
-  name: MuteDeaths
-  version: 1.1-SNAPSHOT
 - checksum: eae33cf50cd28cef16b5a3b93875000ab32acfde
   name: CustomDiscs
   version: 5.1.4
@@ -132,6 +117,12 @@ plugins:
 - checksum: f940ca61ba23dfade09c1d1bc1df6f239c1617be
   name: VillagerOptimizer
   version: 2.0.1
+- checksum: d70e0d30e9008511e8a0144fdabc59d39185e3c6
+  name: IceCream
+  version: 1.0-SNAPSHOT
+- checksum: 55e89ae1c8e01117d89165cc933a217b76f55bb7
+  name: SpectatorMode
+  version: 2.2.0
 version:
   build: 97
   name: 1.21.11
