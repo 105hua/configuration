@@ -1,67 +1,82 @@
 modules:
-    example:
-        enabled: false
-    lightning:
-        enabled: true
-        chance: 0.5
-    mutedeaths:
-        enabled: true
-    isslimechunk:
-        enabled: true
-    wanderingtrades:
-        enabled: true
-        min-heads: 5
-        max-heads: 10
-    staffmode:
-        enabled: true
-    vanish:
-        enabled: true
-        bossbar:
-            text: '<red>You are currently vanished</red>'
-            color: RED
-        messages:
-            join: '<yellow><player> joined the game</yellow>'
-            leave: '<yellow><player> left the game</yellow>'
-            discord-join: '%player% joined the server'
-            discord-leave: '%player% left the server'
-        carbon-chat:
-            allowed-channels:
-                - staff
-                - staffchat
-                - sc
-    desertmobs:
-        enabled: true
-        spawn:
-            zombie-to-husk-chance: 0.33
-            skeleton-to-parched-chance: 0.33
-    wanderful:
-        enabled: true
-        item_frame:
-            type: WOODEN_SWORD
-            name: '<gold>Item Frame Wand</gold>'
-            lore:
-                - '<dark_green>Now you see me,</dark_green>'
-                - "<dark_red>now you don't</dark_red>"
-            crafting:
-                shape:
-                    - D
-                    - I
-                    - S
-                ingredients:
-                    D: DIAMOND
-                    I: ITEM_FRAME
-                    S: STICK
-        armor_stand:
-            type: WOODEN_HOE
-            name: '<gold>Armor Stand Wand</gold>'
-            lore:
-                - Controlling the moves!
-            crafting:
-                shape:
-                    - D
-                    - A
-                    - H
-                ingredients:
-                    D: DIAMOND
-                    A: ARMOR_STAND
-                    H: STICK
+  example:
+    enabled: true
+  lightning:
+    enabled: true
+    chance: 0.5
+  mutedeaths:
+    enabled: true
+  isslimechunk:
+    enabled: true
+  wanderingtrades:
+    enabled: true
+    min-heads: 5
+    max-heads: 10
+  staffmode:
+    enabled: true
+  vanish:
+    enabled: true
+    bossbar:
+      text: '<red>You are currently vanished</red>'
+      color: RED
+    messages:
+      join: '<yellow><player> joined the game</yellow>'
+      leave: '<yellow><player> left the game</yellow>'
+      discord-join: '%player% joined the server'
+      discord-leave: '%player% left the server'
+    carbon-chat:
+      allowed-channels:
+        - staff
+        - staffchat
+        - sc
+  spectator:
+    enabled: true
+    bossbar:
+      text: '<aqua>You are currently in spectator mode</aqua>'
+      color: BLUE
+    messages:
+      join: '<yellow><player> joined the game</yellow>'
+      leave: '<yellow><player> left the game</yellow>'
+      discord-join: '%player% joined the server'
+      discord-leave: '%player% left the server'
+    carbon-chat:
+      allowed-channels:
+        - staff
+        - staffchat
+        - sc
+  desertmobs:
+    enabled: true
+    spawn:
+      zombie-to-husk-chance: 0.33
+      skeleton-to-parched-chance: 0.33
+  wanderful:
+    enabled: true
+    item_frame:
+      type: WOODEN_SWORD
+      name: '<gold>Item Frame Wand</gold>'
+      lore:
+        - '<dark_green>Now you see me,</dark_green>'
+        - '<dark_red>now you don''t</dark_red>'
+      crafting:
+        shape:
+          - D
+          - I
+          - S
+        ingredients:
+          D: DIAMOND
+          I: ITEM_FRAME
+          S: STICK
+    armor_stand:
+      type: WOODEN_HOE
+      name: '<gold>Armor Stand Wand</gold>'
+      lore:
+        - Controlling the moves!
+      crafting:
+        shape:
+          - D
+          - A
+          - H
+        ingredients:
+          D: DIAMOND
+          A: ARMOR_STAND
+          H: STICK
