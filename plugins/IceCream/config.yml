@@ -1,6 +1,6 @@
 modules:
   example:
-    enabled: true
+    enabled: false
   lightning:
     enabled: true
     chance: 0.5
