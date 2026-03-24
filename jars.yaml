@@ -117,12 +117,9 @@ plugins:
 - checksum: f940ca61ba23dfade09c1d1bc1df6f239c1617be
   name: VillagerOptimizer
   version: 2.0.1
-- checksum: d70e0d30e9008511e8a0144fdabc59d39185e3c6
+- checksum: b28a6794c6d6c72a9085c4ceb6d7072ebbcd14ae
   name: IceCream
-  version: 1.0-SNAPSHOT
-- checksum: 55e89ae1c8e01117d89165cc933a217b76f55bb7
-  name: SpectatorMode
-  version: 2.2.0
+  version: 1.1-SNAPSHOT
 version:
   build: 97
   name: 1.21.11
