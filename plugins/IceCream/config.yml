@@ -15,7 +15,7 @@ modules:
   staffmode:
     enabled: true
   vanish:
-    enabled: true
+    enabled: false
     bossbar:
       text: '<red>You are currently vanished</red>'
       color: RED
