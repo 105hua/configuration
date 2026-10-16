@@ -6,8 +6,8 @@ import os
 from pathlib import Path
 from typing import Union, List, Iterable
 
-import b2sdk  # type: ignore
 from b2sdk.v1 import B2Api, Bucket, FileVersionInfo, InMemoryAccountInfo, FileVersion  # type: ignore
+from b2sdk.v1.exception import FileNotPresent  # type: ignore
 
 from server_manager.utils import file_to_b2_name, file_to_b2_dir
 
@@ -55,7 +55,7 @@ def b2_file_status(
 ) -> B2FileStatus:
     try:
         b2_file_info(bucket, file, remote_prefix)
-    except b2sdk.exception.FileNotPresent:
+    except FileNotPresent:
         return B2FileStatus.MISSING
     return B2FileStatus.PRESENT
 
